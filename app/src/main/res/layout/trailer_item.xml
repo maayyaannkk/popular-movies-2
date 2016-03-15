@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/card_margin">
+    <!-- ImageView or your youtubeThumnailView -->
+    <ImageView
+        android:id="@+id/iv_youtube_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:alpha=".8"
+        android:src="@drawable/logo" />
+
+    <!-- ImageView of your button -->
+    <ImageView
+        android:id="@+id/iv_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="50dp"
+        android:minHeight="50dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/youtube" />
+</RelativeLayout>
